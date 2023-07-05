@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".IntentActivity">
+
+
+    <ImageView
+        android:id="@+id/imgv_calender"
+        android:layout_width="82dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/calendar"/>
+
+    <ImageView
+        android:id="@+id/imgv_chat"
+        android:layout_width="82dp"
+        android:layout_height="81dp"
+        android:background="#E5ECED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="@+id/imgv_calender"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452"
+        app:srcCompat="@drawable/chat" />
+
+    <ImageView
+        android:id="@+id/imgv_widgets"
+        android:layout_width="82dp"
+        android:layout_height="81dp"
+        android:background="#E5ECED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgv_info"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgv_info"
+        app:layout_constraintTop_toBottomOf="@+id/imgv_chat"
+        app:layout_constraintVertical_bias="0.526"
+        app:srcCompat="@drawable/widgets" />
+
+    <ImageView
+        android:id="@+id/imgv_language"
+        android:layout_width="82dp"
+        android:layout_height="81dp"
+        android:background="#FEFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imgv_calender"
+        app:layout_constraintEnd_toEndOf="@+id/imgv_chat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgv_chat"
+        app:layout_constraintTop_toTopOf="@+id/imgv_calender"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/language" />
+
+    <ImageView
+        android:id="@+id/imgv_info"
+        android:layout_width="82dp"
+        android:layout_height="81dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imgv_chat"
+        app:layout_constraintEnd_toEndOf="@+id/imgv_language"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgv_chat"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/imgv_camera"
+        android:layout_width="82dp"
+        android:layout_height="81dp"
+        android:background="#D2D6D6"
+        app:layout_constraintBottom_toBottomOf="@+id/imgv_widgets"
+        app:layout_constraintEnd_toEndOf="@+id/imgv_chat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgv_chat"
+        app:layout_constraintTop_toTopOf="@+id/imgv_widgets"
+        app:layout_constraintVertical_bias="0.199"
+        app:srcCompat="@drawable/camera" />
+
+
+
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>

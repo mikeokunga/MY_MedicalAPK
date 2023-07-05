@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840930870009",
+    "project_id": "my-medicalapk",
+    "storage_bucket": "my-medicalapk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840930870009:android:ead7f6ac28241dccba5828",
+        "android_client_info": {
+          "package_name": "com.example.my_medicalapk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840930870009-tf3jqcb6qi6gtl0jfqsjlc1cdfrc4f9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4hCSiVwnaUB-XpdfvuOXmW08c2c67b5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840930870009-tf3jqcb6qi6gtl0jfqsjlc1cdfrc4f9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
